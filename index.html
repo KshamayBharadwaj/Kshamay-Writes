@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kshamay Writes</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+  <header id="header">
+    <div class="container header-content">
+      <h1 class="logo">Kshamay<span>Writes</span></h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-right">
+        <button id="theme-toggle" class="theme-btn">
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Home Section -->
+    <section id="home">
+      <div class="featured-blogs">
+        <article class="blog-card">
+          <div class="card-image">
+            <img src="images/blog1-image.jpg" alt="Public Speaking Image">
+          </div>
+          <div class="card-content">
+            <div class="meta-info">
+              <span class="author">Kshamay P Bharadwaj</span>
+              <span class="date">February 8, 2025</span>
+            </div>
+            <h2><a href="blogs/blog1.html">Breaking the Silence: My Journey from Fear to Confidence</a></h2>
+            <p>A personal story of overcoming fear and self-doubt in public speaking, and the lessons learned along the
+              way.</p>
+            <a href="blogs/blog1.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hi, I'm Kshamay Bharadwaj, an undergraduate AIML student at Jyothy Institute of Technology.
+        I'm passionate about coding, AI, and web development. I enjoy working on projects like AI assistants
+        while constantly exploring new technologies.
+        Beyond coding, I'm deeply interested in spirituality and the principles of Sanatana Dharma.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+  
+        <!-- Web3Forms Access Key -->
+        <input type="hidden" name="access_key" value="b87bc94e-ac71-4e81-bd04-4b0a70c3773a">
+        
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      
+        <!-- Honeypot for spam protection -->
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+        
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-section">
+        <h3>Kshamay Writes</h3>
+        <p>Discover. Learn. Inspire.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Connect</h4>
+        <div class="social-links">
+          <a href="https://x.com/Kshamay10?t=rDzTUM9_UzSkrCYmYPjwsA&s=09"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/kshamay-p-bharadwaj-192113299"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/KshamayBharadwaj"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/kshamaybharadwaj/"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Kshamay Writes. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
